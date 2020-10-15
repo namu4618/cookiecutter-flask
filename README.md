@@ -23,10 +23,10 @@ $ ./cookiecutter-docker.sh --help
 
 Options:
     -b, --build    Build Docker image before running cookiecutter
-    -t, --template Specify custom cookiecutter template via a URI to a git repo
+    -t, --template Specify custom cookiecutter template via a URL to a git repo
                     e.g. https://github.com/cookiecutter-flask/cookiecutter-flask.git
                     Defaults to template in current working directory
-    -h, --help     Show this message and exit
+    -h, --help     Show this message and exit.
 ```
 
 ### Standard
@@ -207,11 +207,11 @@ Thanks @andreoliw for these contributions.
 - Flask-Testing support.
 - Use Factory-Boy for test factories.
 - Use WebTest for functional testing.
-- Add Flask-Debugtoolbar.
+- Added Flask-Debugtoolbar.
 - Migrations using Flask-Migrate.
 - Caching using Flask-Cache.
-- Add error page templates (404, 401, 500)
-- Add Font Awesome 4.0.3 for icons.
+- Added error page templates (404, 401, 500)
+- Added Font Awesome 4.0.3 for icons.
 
 ### 0.2.0 (09/21/2013)
 
@@ -222,6 +222,6 @@ Thanks @andreoliw for these contributions.
 
 ### 0.1.0 (08/20/2013)
 
-- First iteration
+- First Version
 - Bootstrap 3 final
 - Working User model and registration
